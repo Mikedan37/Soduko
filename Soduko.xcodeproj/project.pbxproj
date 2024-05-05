@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		905089132BE73EAC0054D468 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905089122BE73EAC0054D468 /* DataHandler.swift */; };
+		905089152BE73EC10054D468 /* SodiukoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905089142BE73EC10054D468 /* SodiukoModel.swift */; };
+		9059D7B12BE7392F0093BBAC /* SodukoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059D7B02BE7392F0093BBAC /* SodukoApp.swift */; };
+		9059D7B32BE7392F0093BBAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059D7B22BE7392F0093BBAC /* ContentView.swift */; };
+		9059D7B52BE739330093BBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9059D7B42BE739330093BBAC /* Assets.xcassets */; };
+		9059D7B82BE739330093BBAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9059D7B72BE739330093BBAC /* Preview Assets.xcassets */; };
+		9059D7C32BE739330093BBAC /* SodukoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059D7C22BE739330093BBAC /* SodukoTests.swift */; };
+		9059D7CD2BE739330093BBAC /* SodukoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059D7CC2BE739330093BBAC /* SodukoUITests.swift */; };
+		9059D7CF2BE739330093BBAC /* SodukoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059D7CE2BE739330093BBAC /* SodukoUITestsLaunchTests.swift */; };
+		90ED245A2BE7533700118497 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED24592BE7533700118497 /* 1.swift */; };
+		90ED245C2BE7534100118497 /* 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED245B2BE7534100118497 /* 2.swift */; };
+		90ED245E2BE7534800118497 /* 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED245D2BE7534800118497 /* 3.swift */; };
+		90ED24602BE7535000118497 /* 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED245F2BE7535000118497 /* 4.swift */; };
+		90ED24622BE7535800118497 /* 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED24612BE7535800118497 /* 5.swift */; };
+		90ED24642BE7535F00118497 /* 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED24632BE7535F00118497 /* 6.swift */; };
+		90ED24662BE7536600118497 /* 7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED24652BE7536600118497 /* 7.swift */; };
+		90ED24682BE7536F00118497 /* 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED24672BE7536F00118497 /* 8.swift */; };
+		90ED246C2BE7538E00118497 /* Zero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED246B2BE7538E00118497 /* Zero.swift */; };
+		90ED246E2BE75A2700118497 /* SodukoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED246D2BE75A2700118497 /* SodukoBoard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9059D7BF2BE739330093BBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9059D7A52BE7392F0093BBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9059D7AC2BE7392F0093BBAC;
+			remoteInfo = Soduko;
+		};
+		9059D7C92BE739330093BBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9059D7A52BE7392F0093BBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9059D7AC2BE7392F0093BBAC;
+			remoteInfo = Soduko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		905089122BE73EAC0054D468 /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		905089142BE73EC10054D468 /* SodiukoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodiukoModel.swift; sourceTree = "<group>"; };
+		9059D7AD2BE7392F0093BBAC /* Soduko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soduko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9059D7B02BE7392F0093BBAC /* SodukoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodukoApp.swift; sourceTree = "<group>"; };
+		9059D7B22BE7392F0093BBAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9059D7B42BE739330093BBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9059D7B72BE739330093BBAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9059D7B92BE739330093BBAC /* Soduko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soduko.entitlements; sourceTree = "<group>"; };
+		9059D7BE2BE739330093BBAC /* SodukoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodukoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9059D7C22BE739330093BBAC /* SodukoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodukoTests.swift; sourceTree = "<group>"; };
+		9059D7C82BE739330093BBAC /* SodukoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodukoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9059D7CC2BE739330093BBAC /* SodukoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodukoUITests.swift; sourceTree = "<group>"; };
+		9059D7CE2BE739330093BBAC /* SodukoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodukoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90ED24592BE7533700118497 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
+		90ED245B2BE7534100118497 /* 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.swift; sourceTree = "<group>"; };
+		90ED245D2BE7534800118497 /* 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.swift; sourceTree = "<group>"; };
+		90ED245F2BE7535000118497 /* 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.swift; sourceTree = "<group>"; };
+		90ED24612BE7535800118497 /* 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.swift; sourceTree = "<group>"; };
+		90ED24632BE7535F00118497 /* 6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6.swift; sourceTree = "<group>"; };
+		90ED24652BE7536600118497 /* 7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7.swift; sourceTree = "<group>"; };
+		90ED24672BE7536F00118497 /* 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8.swift; sourceTree = "<group>"; };
+		90ED246B2BE7538E00118497 /* Zero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zero.swift; sourceTree = "<group>"; };
+		90ED246D2BE75A2700118497 /* SodukoBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodukoBoard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9059D7AA2BE7392F0093BBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9059D7BB2BE739330093BBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9059D7C52BE739330093BBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9059D7A42BE7392F0093BBAC = {
+			isa = PBXGroup;
+			children = (
+				9059D7AF2BE7392F0093BBAC /* Soduko */,
+				9059D7C12BE739330093BBAC /* SodukoTests */,
+				9059D7CB2BE739330093BBAC /* SodukoUITests */,
+				9059D7AE2BE7392F0093BBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9059D7AE2BE7392F0093BBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9059D7AD2BE7392F0093BBAC /* Soduko.app */,
+				9059D7BE2BE739330093BBAC /* SodukoTests.xctest */,
+				9059D7C82BE739330093BBAC /* SodukoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9059D7AF2BE7392F0093BBAC /* Soduko */ = {
+			isa = PBXGroup;
+			children = (
+				9059D7B02BE7392F0093BBAC /* SodukoApp.swift */,
+				9059D7B22BE7392F0093BBAC /* ContentView.swift */,
+				905089122BE73EAC0054D468 /* DataHandler.swift */,
+				90ED246D2BE75A2700118497 /* SodukoBoard.swift */,
+				90ED24582BE7532500118497 /* NUMBERS */,
+				905089142BE73EC10054D468 /* SodiukoModel.swift */,
+				9059D7B42BE739330093BBAC /* Assets.xcassets */,
+				9059D7B92BE739330093BBAC /* Soduko.entitlements */,
+				9059D7B62BE739330093BBAC /* Preview Content */,
+			);
+			path = Soduko;
+			sourceTree = "<group>";
+		};
+		9059D7B62BE739330093BBAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9059D7B72BE739330093BBAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9059D7C12BE739330093BBAC /* SodukoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9059D7C22BE739330093BBAC /* SodukoTests.swift */,
+			);
+			path = SodukoTests;
+			sourceTree = "<group>";
+		};
+		9059D7CB2BE739330093BBAC /* SodukoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9059D7CC2BE739330093BBAC /* SodukoUITests.swift */,
+				9059D7CE2BE739330093BBAC /* SodukoUITestsLaunchTests.swift */,
+			);
+			path = SodukoUITests;
+			sourceTree = "<group>";
+		};
+		90ED24582BE7532500118497 /* NUMBERS */ = {
+			isa = PBXGroup;
+			children = (
+				90ED246B2BE7538E00118497 /* Zero.swift */,
+				90ED24592BE7533700118497 /* 1.swift */,
+				90ED245B2BE7534100118497 /* 2.swift */,
+				90ED245D2BE7534800118497 /* 3.swift */,
+				90ED245F2BE7535000118497 /* 4.swift */,
+				90ED24612BE7535800118497 /* 5.swift */,
+				90ED24632BE7535F00118497 /* 6.swift */,
+				90ED24652BE7536600118497 /* 7.swift */,
+				90ED24672BE7536F00118497 /* 8.swift */,
+			);
+			path = NUMBERS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9059D7AC2BE7392F0093BBAC /* Soduko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9059D7D22BE739330093BBAC /* Build configuration list for PBXNativeTarget "Soduko" */;
+			buildPhases = (
+				9059D7A92BE7392F0093BBAC /* Sources */,
+				9059D7AA2BE7392F0093BBAC /* Frameworks */,
+				9059D7AB2BE7392F0093BBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soduko;
+			productName = Soduko;
+			productReference = 9059D7AD2BE7392F0093BBAC /* Soduko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9059D7BD2BE739330093BBAC /* SodukoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9059D7D52BE739330093BBAC /* Build configuration list for PBXNativeTarget "SodukoTests" */;
+			buildPhases = (
+				9059D7BA2BE739330093BBAC /* Sources */,
+				9059D7BB2BE739330093BBAC /* Frameworks */,
+				9059D7BC2BE739330093BBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9059D7C02BE739330093BBAC /* PBXTargetDependency */,
+			);
+			name = SodukoTests;
+			productName = SodukoTests;
+			productReference = 9059D7BE2BE739330093BBAC /* SodukoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9059D7C72BE739330093BBAC /* SodukoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9059D7D82BE739330093BBAC /* Build configuration list for PBXNativeTarget "SodukoUITests" */;
+			buildPhases = (
+				9059D7C42BE739330093BBAC /* Sources */,
+				9059D7C52BE739330093BBAC /* Frameworks */,
+				9059D7C62BE739330093BBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9059D7CA2BE739330093BBAC /* PBXTargetDependency */,
+			);
+			name = SodukoUITests;
+			productName = SodukoUITests;
+			productReference = 9059D7C82BE739330093BBAC /* SodukoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9059D7A52BE7392F0093BBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9059D7AC2BE7392F0093BBAC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9059D7BD2BE739330093BBAC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9059D7AC2BE7392F0093BBAC;
+					};
+					9059D7C72BE739330093BBAC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9059D7AC2BE7392F0093BBAC;
+					};
+				};
+			};
+			buildConfigurationList = 9059D7A82BE7392F0093BBAC /* Build configuration list for PBXProject "Soduko" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9059D7A42BE7392F0093BBAC;
+			productRefGroup = 9059D7AE2BE7392F0093BBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9059D7AC2BE7392F0093BBAC /* Soduko */,
+				9059D7BD2BE739330093BBAC /* SodukoTests */,
+				9059D7C72BE739330093BBAC /* SodukoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9059D7AB2BE7392F0093BBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9059D7B82BE739330093BBAC /* Preview Assets.xcassets in Resources */,
+				9059D7B52BE739330093BBAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9059D7BC2BE739330093BBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9059D7C62BE739330093BBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9059D7A92BE7392F0093BBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ED24642BE7535F00118497 /* 6.swift in Sources */,
+				90ED246C2BE7538E00118497 /* Zero.swift in Sources */,
+				90ED245C2BE7534100118497 /* 2.swift in Sources */,
+				90ED245A2BE7533700118497 /* 1.swift in Sources */,
+				905089152BE73EC10054D468 /* SodiukoModel.swift in Sources */,
+				90ED246E2BE75A2700118497 /* SodukoBoard.swift in Sources */,
+				90ED24662BE7536600118497 /* 7.swift in Sources */,
+				9059D7B32BE7392F0093BBAC /* ContentView.swift in Sources */,
+				90ED24682BE7536F00118497 /* 8.swift in Sources */,
+				905089132BE73EAC0054D468 /* DataHandler.swift in Sources */,
+				9059D7B12BE7392F0093BBAC /* SodukoApp.swift in Sources */,
+				90ED24622BE7535800118497 /* 5.swift in Sources */,
+				90ED24602BE7535000118497 /* 4.swift in Sources */,
+				90ED245E2BE7534800118497 /* 3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9059D7BA2BE739330093BBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9059D7C32BE739330093BBAC /* SodukoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9059D7C42BE739330093BBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9059D7CD2BE739330093BBAC /* SodukoUITests.swift in Sources */,
+				9059D7CF2BE739330093BBAC /* SodukoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9059D7C02BE739330093BBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9059D7AC2BE7392F0093BBAC /* Soduko */;
+			targetProxy = 9059D7BF2BE739330093BBAC /* PBXContainerItemProxy */;
+		};
+		9059D7CA2BE739330093BBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9059D7AC2BE7392F0093BBAC /* Soduko */;
+			targetProxy = 9059D7C92BE739330093BBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9059D7D02BE739330093BBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9059D7D12BE739330093BBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9059D7D32BE739330093BBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Soduko/Soduko.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soduko/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FN6U9B2Q9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.Soduko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9059D7D42BE739330093BBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Soduko/Soduko.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soduko/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FN6U9B2Q9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.Soduko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9059D7D62BE739330093BBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FN6U9B2Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.SodukoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soduko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soduko";
+			};
+			name = Debug;
+		};
+		9059D7D72BE739330093BBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FN6U9B2Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.SodukoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soduko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soduko";
+			};
+			name = Release;
+		};
+		9059D7D92BE739330093BBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FN6U9B2Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.SodukoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Soduko;
+			};
+			name = Debug;
+		};
+		9059D7DA2BE739330093BBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FN6U9B2Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.SodukoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Soduko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9059D7A82BE7392F0093BBAC /* Build configuration list for PBXProject "Soduko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9059D7D02BE739330093BBAC /* Debug */,
+				9059D7D12BE739330093BBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9059D7D22BE739330093BBAC /* Build configuration list for PBXNativeTarget "Soduko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9059D7D32BE739330093BBAC /* Debug */,
+				9059D7D42BE739330093BBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9059D7D52BE739330093BBAC /* Build configuration list for PBXNativeTarget "SodukoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9059D7D62BE739330093BBAC /* Debug */,
+				9059D7D72BE739330093BBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9059D7D82BE739330093BBAC /* Build configuration list for PBXNativeTarget "SodukoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9059D7D92BE739330093BBAC /* Debug */,
+				9059D7DA2BE739330093BBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9059D7A52BE7392F0093BBAC /* Project object */;
+}
