@@ -26,6 +26,8 @@
 		90ED24682BE7536F00118497 /* 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED24672BE7536F00118497 /* 8.swift */; };
 		90ED246C2BE7538E00118497 /* Zero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED246B2BE7538E00118497 /* Zero.swift */; };
 		90ED246E2BE75A2700118497 /* SodukoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED246D2BE75A2700118497 /* SodukoBoard.swift */; };
+		90ED24702BE8872100118497 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED246F2BE8872100118497 /* Delegate.swift */; };
+		90ED24722BE8951500118497 /* introPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED24712BE8951500118497 /* introPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		90ED24672BE7536F00118497 /* 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8.swift; sourceTree = "<group>"; };
 		90ED246B2BE7538E00118497 /* Zero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zero.swift; sourceTree = "<group>"; };
 		90ED246D2BE75A2700118497 /* SodukoBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodukoBoard.swift; sourceTree = "<group>"; };
+		90ED246F2BE8872100118497 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		90ED24712BE8951500118497 /* introPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				9059D7B02BE7392F0093BBAC /* SodukoApp.swift */,
+				90ED246F2BE8872100118497 /* Delegate.swift */,
 				9059D7B22BE7392F0093BBAC /* ContentView.swift */,
+				90ED24712BE8951500118497 /* introPage.swift */,
 				905089122BE73EAC0054D468 /* DataHandler.swift */,
 				90ED246D2BE75A2700118497 /* SodukoBoard.swift */,
 				90ED24582BE7532500118497 /* NUMBERS */,
@@ -306,9 +312,11 @@
 				90ED24642BE7535F00118497 /* 6.swift in Sources */,
 				90ED246C2BE7538E00118497 /* Zero.swift in Sources */,
 				90ED245C2BE7534100118497 /* 2.swift in Sources */,
+				90ED24722BE8951500118497 /* introPage.swift in Sources */,
 				90ED245A2BE7533700118497 /* 1.swift in Sources */,
 				905089152BE73EC10054D468 /* SodiukoModel.swift in Sources */,
 				90ED246E2BE75A2700118497 /* SodukoBoard.swift in Sources */,
+				90ED24702BE8872100118497 /* Delegate.swift in Sources */,
 				90ED24662BE7536600118497 /* 7.swift in Sources */,
 				9059D7B32BE7392F0093BBAC /* ContentView.swift in Sources */,
 				90ED24682BE7536F00118497 /* 8.swift in Sources */,
@@ -486,6 +494,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,6 +523,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -11,11 +11,7 @@ struct ContentView: View {
     @EnvironmentObject var dataHandler: DataHandler
     var body: some View {
         VStack {
-            Sodukoboard().onAppear{
-                Task{
-                    await dataHandler.fetchSodukoBoard()
-                }
-            }
+            Sodukoboard()
             // [][][] [][][] [][][]
             // [][][] [][][] [][][]
             // [][][] [][][] [][][]

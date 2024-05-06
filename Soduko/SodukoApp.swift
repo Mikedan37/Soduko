@@ -9,11 +9,19 @@ import SwiftUI
 
 @main
 struct SodukoApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var dataHandler = DataHandler()
     var body: some Scene {
-        WindowGroup {
-            //ContentView().environmentObject(dataHandler)
-            ContentView().environmentObject(dataHandler)
-        }
+        MenuBarExtra(content:{
+            IntroPage().environmentObject(dataHandler).frame(width: 210,height: 120).fixedSize().frame(alignment: .center)
+        },label:{
+            Image(systemName: "clipboard")
+        }).menuBarExtraStyle(.window)
     }
 }
+
+//struct CustomWindowStyle: WindowGroupStyle{
+//    func makeBody(configuration: Configuration) -> some View{
+//        configuration.content.frame(width:200,height:200)
+//    }
+//}

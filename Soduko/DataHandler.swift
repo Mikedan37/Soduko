@@ -8,8 +8,14 @@ import SwiftUI
 
 class DataHandler: ObservableObject{
     var url = "https://sudoku-api.vercel.app/api/dosuku"
+    @Published var isChanged = false
     @Published var prob: [Grid] = []
     @Published var hasData: Bool = false
+    init(){
+        Task{
+            await fetchSodukoBoard()
+        }
+    }
     @MainActor func fetchSodukoBoard() async{
         let url = URL(string: url)
         var request = URLRequest(url: url!)
